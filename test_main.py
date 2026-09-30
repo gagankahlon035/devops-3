@@ -30,4 +30,4 @@ def test_bye_prints_expected_text(capsys):
 
     captured = capsys.readouterr()
 
-    assert captured.out.strip() == "Good Morning"
+    assert captured.out.strip() == "Goodbye!"
